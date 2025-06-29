@@ -1,0 +1,14 @@
+Running this in Julia's REPL environment:
+
+```
+$ julia
+$ include("esmath.jl")
+$ using .esmath
+$ dx(...)
+```
+
+Todo list:
+- do the heat equation
+  - requires initial conditions, boundary conditions
+
+- graph the heat equation with pcolormesh
